@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  width: 100%;
+}
+  
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 15%;
+}
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form input[type=submit]:hover {
+  background-color: #45a049;
+}
+#userListBoisson {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;   
+}
+.boisson{
+  display: flex;
+  width: 96%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+}
+img{
+  display: flex;
+  flex-direction: row;
+  background-image: cover;
+  width: 40%;
+  height: 100%;
+}
+.info{
+  display: flex;
+  height: 100px;
+  width: 60%;
+}
+.text{
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+p{
+  font-size: 0.9em;
+}
+.btn2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  width: 50%;
+  margin: 15px 10px;
+}
+.titre{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 1000px;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg?cs=srgb&dl=pexels-lood-goosen-1235706.jpg&fm=jpg);
+}
+h1{
+  color: white;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  height: 60px;
+  padding: 10px;
+}
+button {
+  padding: 10px 17px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 11px;
+}
+.up:hover{
+  background-color: rgba(69, 198, 18, 0.4);
+}
+.down:hover{
+  background-color: rgb(235, 184, 89);
+}
+.delete{
+  width: 90%;
+}
+.delete:hover {
+  background-color: rgba(221, 10, 10, 0.4);
+}
+.change1{
+  width: 40%;
+}
+.change2{
+  width: 40%;
+}
+.achat{
+  margin-bottom: 0;
+}
+.vente{
+  margin-bottom: 0;
+}
+.btnsupp{
+  width: 50%;
+  height: 50%;
+  padding: 0;
+  margin: 8px;
+}
+#url{
+  margin-left: 8px;
+}
+#qrcode {
+  width: 150px;
+  height: 150px;
+  margin: 8px 20px;
+}
+.btnqr{
+  width: 70%;
+  height: 50%;
+  padding: 0;
+  margin: 8px 22px;
+}
+.btnqr:hover{
+  background-color: #ccc;
+}
+
+

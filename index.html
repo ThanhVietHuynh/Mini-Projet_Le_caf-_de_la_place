@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+
+       <input type="text" placeholder="Entrer le nom de la boisson" id="boisson" list="defaultNumbers">
+       <datalist id="defaultNumbers">
+            <option value="Corona">
+            <option value="Cocacola">
+            <option value="Rose">
+            <option value="Vin rouge">
+            <option value="Vin blanc">
+            <option value="Vodka">
+            <option value="Whisky">
+            <option value="Cafe">
+            <option value="Perrier">
+            <option value="Sanpellegrino">
+      </datalist>
+       <input type="number" placeholder="Entrer la quantité" id="quantity">
+       <input type="number" placeholder="Entrer le prix d'achat HT" id="prixAchat">
+       <input type="number" placeholder="Entrer le prix de vente HT" id="prixVente">
+       <select name="" id="typeBoisson">
+           <option value="" disabled selected hidden>Choisissez le type de boisson</option>
+           <option value="boisson non alcoolisée">Boisson non alcoolisée</option>
+           <option value="boisson alcoolisée">Boisson alcoolisée</option>
+           <option value="autre produit">Autre</option>
+       </select>
+
+       <input type="number" placeholder="Entrer le degré d'alcool" id="degréAlcool">
+
+       <input type="submit" value="Stocker" id="submit">
+
+    </form>
+
+    <div id="userListBoisson"></div>
+
+    <div class="titre">
+        <h1>LE CAFE DE LA PLACE</h1>
+    </div>
+
+    <script defer src="js/script.js"></script>
+</body>
+</html>
