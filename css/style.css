@@ -133,12 +133,12 @@ button {
   margin: 8px;
 }
 #url{
-  margin-left: 8px;
+  margin-left: 22px;
 }
 #qrcode {
-  width: 150px;
+  width: 60%;
   height: 150px;
-  margin: 8px 20px;
+  margin: 8px 35px;
 }
 .btnqr{
   width: 70%;

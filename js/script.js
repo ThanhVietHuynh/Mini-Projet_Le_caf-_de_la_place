@@ -17,11 +17,11 @@ function showBoissonCardListInDOM(){
                 <p>${Boisson.description()}.</p>
                 <p class="degrée">Degrée d'alcool: ${Boisson.degréalcool}°</p>
                 <p class="achat">Prix Achat HT: ${Boisson.prixAchat}€</p>
-                <input class="change1">
+                <input class="change1" placeholder= "Changer prix">
                 <p class="vente">Prix Vente HT: ${Boisson.prixVente}€</p>
-                <input class="change2">
-                <p class="marge">Marge HT: ${Boisson.marge} €</p>
-                <p class="prixttc">Prix de vente TTC: ${Boisson.prixTtc} €</p>
+                <input class="change2" placeholder="Changer prix">
+                <p class="marge">Marge HT: ${Boisson.marge}€</p>
+                <p class="prixttc">Prix de vente TTC: ${Boisson.prixTtc}€</p>
                 <p class="quantity">Quantité dans le stock: ${Boisson.quantity}</p>
             </div>
             <div class="btnsupp">
